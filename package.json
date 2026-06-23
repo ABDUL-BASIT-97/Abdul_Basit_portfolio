@@ -9,6 +9,14 @@
     "lint": "eslint .",
     "preview": "vite preview"
   },
+
+    "overrides": {
+    "lucide-react": {
+      "react": "$react",
+      "react-dom": "$react-dom"
+    }
+  },
+  
   "dependencies": {
     "lucide-react": "^0.383.0",
     "react": "^19.2.6",
