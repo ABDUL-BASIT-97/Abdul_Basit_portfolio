@@ -530,7 +530,7 @@ export default function Portfolio() {
           transition: opacity 0.25s, background 0.25s;
           backdrop-filter: blur(4px);
         }
-        .img-wrap:hover .gal-arrow, .modal-img-wrap:hover .gal-arrow {
+        .img-wrap .gal-arrow, .modal-img-wrap .gal-arrow {
           opacity: 1;
         }
         .gal-arrow:hover {
@@ -742,7 +742,7 @@ export default function Portfolio() {
       <section style={{
         minHeight: '100vh',
         display: 'flex', flexDirection: 'column', justifyContent: 'center',
-        padding: '0 48px',
+        padding: '100px 24px 0 24px',
         position: 'relative',
         overflow: 'hidden',
       }}>
@@ -783,7 +783,7 @@ export default function Portfolio() {
       </section>
 
       {/* ABOUT */}
-      <section id="about" style={{ padding: '100px 48px', borderTop: '1px solid #1a1a1a' }}>
+      <section id="about" style={{ padding: '100px 24px', borderTop: '1px solid #1a1a1a' }}>
         <div style={{ maxWidth: 1100, margin: '0 auto' }}>
           <div className="section-eyebrow reveal">About Me</div>
           <div style={{ display: 'flex', gap: 60, flexWrap: 'wrap', alignItems: 'flex-start' }}>
@@ -859,7 +859,7 @@ export default function Portfolio() {
       </section>
 
       {/* PROJECTS */}
-      <section id="projects" style={{ padding: '100px 48px', borderTop: '1px solid #1a1a1a' }}>
+      <section id="projects" style={{ padding: '100px 24px', borderTop: '1px solid #1a1a1a' }}>
         <div style={{ maxWidth: 1200, margin: '0 auto' }}>
           <div className="section-eyebrow reveal">Selected Work</div>
           <h2 className="reveal reveal-1" style={{ fontSize: 36, fontWeight: 700, marginBottom: 12 }}>
